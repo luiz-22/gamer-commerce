@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+nav {
+  top: 0;
+  box-shadow: 0px 13px 24px 0px rgba(0, 0, 0, 0.08);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  /* background-image: url("https://www.pixel4k.com/wp-content/uploads/2019/03/dark-green-abstract-shapes-4k_1551645894.jpg");
+  background-size: cover; */
+   background: url("https://1.bp.blogspot.com/-2enmsGapCws/X1XuhUB0l3I/AAAAAAAAMlw/z4rC1vQIm3sI5gcESYWcbcG3auyNMArfwCLcBGAsYHQ/s1920/BLACK%2Bwallpaper%2Bin%2Bhd%2B%252824%2529.jpg")
+    center top no-repeat; 
+   background-attachment: fixed; 
+
+  background-size: cover; 
+}
+.fixed_container_navBar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+nav.navbar {
+  background-color: #050503;
+}
+nav .navbar-collapse.collapse {
+  display: block;
+}
+.imgLogo{
+  width: 90px;
+  height: 42px;
+}
+.containerLogo {
+  position: relative;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+}
+.game-loop {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 7px;
+  position: absolute;
+  align-self: center;
+  color: antiquewhite;
+  width: 100%;
+  justify-self: center;
+}
+.containerSearchItemsMobile {
+  display: none;
+}
+/* barra de busqueda */
+
+.containerSearchItems {
+  position: absolute;
+  margin-top: 68px;
+  top: 0;
+  right: 0;
+  display: inline-block;
+  border: none;
+  width: 300px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  background: url("https://1.bp.blogspot.com/-2enmsGapCws/X1XuhUB0l3I/AAAAAAAAMlw/z4rC1vQIm3sI5gcESYWcbcG3auyNMArfwCLcBGAsYHQ/s1920/BLACK%2Bwallpaper%2Bin%2Bhd%2B%252824%2529.jpg")
+    center top no-repeat;
+  background-size: cover;
+}
+.containerCartGameSearch {
+  border: 0.5px solid rgba(255, 255, 255, 0.046);
+  cursor: pointer;
+  padding: 8px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.containerCartGameSearch img {
+  width: 90px;
+  height: 55px;
+}
+.containerCartGameSearch span {
+  color: white;
+  margin-left: 12px;
+  font-size: 12px;
+  margin-right: 12px;
+}
+.SearchDestokpGame {
+  display: none;
+}
+.profileImagaUserNavbar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 8px;
+  display: flex;
+}
+.containerYourCartNav .bi-cart3 {
+  color: rgb(135, 181, 135);
+  margin-left: 4px;
+}
+
+.containerYourCartNav span {
+  color: white;
+}
+.containerYourCartNav a,
+span {
+  align-self: center;
+}
+.containerYourCartNav button {
+  width: 80px;
+  border: none;
+}
+.button_login_logout_navBar {
+  cursor: pointer;
+}
+.counterYourCart {
+  background-color: #201f1f;
+  padding: 2px 6px;
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+nav .navbar-collapse {
+  transition: 0.6s all ease-in-out;
+  height: 0 !important;
+}
+
+.nav-btn {
+  background-color: #5e5e5e;
+  border-radius: 5px;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  transition: 0.3s all ease-in-out;
+  display: block;
+}
+
+.containerYourCartNav {
+  gap: 20px;
+  display: flex;
+  /* width: 100%;
+  justify-content: end;
+  margin-top: 12px; */
+}
+.positionYourCartNav {
+  justify-self: end;
+}
+.imageProfileNavBarMobile {
+  display: none;
+}
+.ContainerLogFlexNavBar {
+  margin: auto;
+  cursor: pointer;
+}
+.button_login_logout_navBar {
+  margin-right: 6px;
+  vertical-align: middle;
+  color: white;
+}
+.textYourCartNavBar {
+  margin-right: 4px;
+}
+.counterYourCart {
+  border-color: red;
+  border: 0.5px solid rgb(74, 55, 55);
+  text-align: center;
+  vertical-align: middle;
+}
+.ContainerLogFlexNavBar img {
+  width: 19px;
+  margin-top: -2px;
+  height: 19px;
+}
+.searchContainerMobileInput {
+  display: none;
+}
+@media (max-width: 1250px) {
+  .containerSearchItems {
+    margin-top: 68px;
+  }
+  nav .navbar-collapse.collapse {
+    overflow: hidden;
+  }
+  nav .navbar-collapse.active {
+    height: 38vh !important;
+  }
+  .containerSearchMobile {
+    display: none;
+  }
+
+  .SearchDestokpGame {
+    display: flex;
+  }
+
+  .counterYourCart {
+    border-color: red;
+    border: 0.5px solid rgb(199, 147, 147);
+    text-align: center;
+    vertical-align: middle;
+  }
+  .imageProfileNavBarMobile {
+    display: block;
+  }
+  .containerYourCartNav {
+    display: none;
+  }
+
+  .searchDestokp {
+    display: none;
+  }
+  .bi-cart3 {
+    margin: 0 8px 0 4px;
+  }
+
+  .text-info {
+    margin: 0;
+  }
+  .searchContainerMobileInput {
+    display: block;
+  }
+}
+
+@media (max-width: 550px) {
+  .searchContainerMobileInput {
+    width: 40%;
+  }
+  .iconMobileSearch {
+    display: none;
+  }
+  .text-info {
+    font-size: 14px;
+  }
+}
+/* @media (min-width: 1250px) {
+  .navbar-expand-lg .navbar-toggler {
+    display: none;
+  }
+} */

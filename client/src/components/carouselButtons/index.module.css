@@ -1,0 +1,76 @@
+.columnas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  gap: 35px;
+}
+
+.button {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 20%;
+  height: 80px;
+  width: 40px;
+  font-weight: 1000;
+  box-shadow: 3px 1px 5px 1px rgb(0, 0, 0);
+  background-image: linear-gradient(to left, #000000e0, #b6c625);
+}
+.button:hover {
+  transition: 0.3s;
+  transform: scale(1.19);
+  box-shadow: 1px 1px 10px rgb(255, 238, 4);
+  background-image: url("https://i.gifer.com/origin/ff/ffe3cc9cd8f96aaf53b352bcad7e97e7.gif");
+  background-size: cover;
+}
+
+.active {
+  user-select: none;
+  cursor: pointer;
+  backdrop-filter: blur(4px);
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: 1px 1px 10px rgb(15, 151, 255);
+}
+.container_carousel {
+  display: flex;
+  flex-direction: column;
+}
+.inactivo {
+  margin: 12px auto;
+}
+.inactivo button {
+  margin: 8px 8px;
+}
+.columnasMobile {
+  display: none;
+}
+.button_page_navigation {
+  width: 20px;
+  height: 10px;
+  background-color: hsla(202, 60%, 100%, 0.4);
+  border: none;
+}
+@media (max-width: 1250px) {
+  .columnas {
+    overflow-x: scroll;
+    display: flex;
+    flex-wrap: nowrap;
+    grid-gap: 5px;
+    justify-content: flex-start;
+    height: 260px;
+  }
+  .columnasDestokp {
+    display: none;
+  }
+}
+@media (max-width: 550px) {
+  .columnas {
+    margin-top: 0;
+  }
+  .container_carousel {
+    height: 185px;
+  }
+}

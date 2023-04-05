@@ -1,0 +1,177 @@
+.mainGamesAllDashboard {
+  background-color: var(--white);
+  border: 1px solid rgba(0, 0, 0, 0.331);
+  width: 100%;
+  height: calc(100vh - 50px);
+  margin-top: 49px;
+  overflow-y: scroll;
+}
+.tableGames {
+  width: 100%;
+  font-size: 14px;
+  margin-top: 62px;
+}
+.tableGames td,
+.tableGames th {
+  border: 1px solid rgba(0, 0, 0, 0.21);
+}
+
+.columnRatingGame,
+.columnPriceGame,
+.columnStatusGame {
+  text-align: center;
+}
+.columnStatusGame {
+  color: green;
+}
+.columnStatusGamebanned {
+  text-align: center;
+  color: red;
+}
+.tableGames th {
+  padding: 0 8px;
+  text-align: center;
+}
+
+.tableColumns td {
+  padding: 4px;
+}
+.tableGames img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.columnNameGame {
+  width: 300px;
+  overflow: hidden;
+  padding: 0 8px;
+}
+.columnNameGame span {
+  padding-left: 6px;
+}
+.columnActionGame div {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.columnIdGame {
+  text-align: center;
+  width: 50px;
+}
+.columnActionView,
+.columnActionDelete {
+  text-align: center;
+  border: 1px solid rgba(93, 87, 87, 0.498);
+  margin-left: 16px;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 4px;
+}
+.columnActionView {
+  color: rgb(20, 11, 153);
+}
+.columnActionDelete {
+  color: rgb(209, 1, 1);
+}
+.seeMore {
+  display: block;
+  margin: 20px;
+  margin-left: auto;
+  width: 100px;
+  color: black;
+  cursor: pointer;
+}
+.inputdiscount {
+  background-color: #0000003a;
+  box-shadow: 1px 1px 5px rgba(20, 39, 165, 0.46);
+  border: solid 1px rgb(0, 0, 0);
+  padding: 5px;
+  width: 30%;
+  height: 10%;
+  margin-top: 1%;
+  color: rgb(231, 225, 225);
+  text-align: center;
+}
+.buttoncount {
+  color: green;
+  /* background-image: linear-gradient(to bottom, #000000, #21da46);
+  box-shadow: 1px 1px 5px rgb(17, 196, 20); */
+  text-align: center;
+  border: 1px solid rgba(93, 87, 87, 0.498);
+  margin-left: 16px;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 4px;
+}
+.buttoncount:hover {
+  box-shadow: 1px 1px 5px 1px rgb(255, 255, 255);
+}
+.columnActionView:hover {
+  box-shadow: 1px 1px 5px 1px rgb(255, 255, 255);
+}
+.columnActionDelete:hover {
+  box-shadow: 1px 1px 5px 1px rgb(255, 255, 255);
+}
+.mainGamesAllDashboard label {
+  margin: 10px 20px;
+}
+.mainGamesAllDashboard p {
+  text-align: center;
+  color: black;
+  margin: 0;
+}
+.upperIconFilters {
+  color: rgb(184, 12, 12);
+}
+.iconLowerFilters,
+.inputTemporalPurchased {
+  color: rgb(182, 20, 203);
+}
+.mainGamesAllDashboard i {
+  font-size: 12px;
+}
+.mainGamesAllDashboard .inputOrderFilter {
+  display: block;
+  justify-self: center;
+  width: 18px;
+  height: 18px;
+}
+.containerInputOrders {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.containerFlexInputOrdersgame {
+  position: fixed;
+  height: 50px;
+  border-bottom: 1px solid var(--grey);
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--white);
+  align-items: center;
+  font-size: 14px;
+  color: #555;
+  width: 83%;
+  z-index: 1;
+  background-color: var(--white);
+}
+.buttonOffertsGames {
+  align-self: center;
+  text-align: center;
+  border: 1px solid rgba(93, 87, 87, 0.498);
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 4px;
+  color: rgb(20, 11, 153);
+}
+.containerFlexButtons {
+  display: flex;
+}
+.error {
+  color: #ff0000;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}

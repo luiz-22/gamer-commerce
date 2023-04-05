@@ -1,0 +1,126 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  /* box-sizing: border-box; */
+  font-family: sans-serif;
+}
+
+.containerpadre {
+  box-shadow: 0 0 7px 0px rgb(191, 233, 38);
+  background-image: url("http://xpyahhhh.files.wordpress.com/2008/07/stream-of-light-green.jpg");
+  background-size: cover;
+  margin-top: 20px;
+  padding: 5px;
+  box-shadow: 5px 1px 5px 4px rgb(0, 0, 0);
+  color: aliceblue;
+}
+.containerbody {
+  justify-content: space-around;
+}
+.colum1 p {
+  text-align: justify;
+  margin: 0 16px;
+}
+.colum1 h1 {
+  display: flex;
+  font-size: 22px;
+  background-color: rgba(104, 103, 103, 0.144);
+  justify-content: center;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.383);
+  text-shadow: 1px 1px 3px rgb(3, 3, 3);
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-transform: capitalize;
+}
+.colum1 p {
+  font-size: 14px;
+  color: #ffffff;
+  margin: 16px 72px;
+}
+
+.colum3 h1 {
+  display: flex;
+  font-size: 22px;
+  background-color: rgba(104, 103, 103, 0.144);
+  justify-content: center;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.383);
+  text-shadow: 1px 1px 3px rgb(3, 3, 3);
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-transform: capitalize;
+}
+
+.information {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 4px 32px 10px 0;
+  align-items: center;
+}
+.information span {
+  margin-right: 8px;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 4px;
+}
+.containerButtonPurchased {
+  position: absolute;
+  display: flex;
+  right: 0;
+}
+.containerCategoriesGames {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.containerCategoriesGames p {
+  margin: 4px 8px 8px 8px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.price_discount{
+  text-decoration: line-through;
+  font-size: 10px;
+  color: gray;
+}
+.row2 p {
+  font-size: 14px;
+  margin: 16px 64px;
+  text-align: justify;
+}
+
+.readMore {
+  font-size: 12px;
+  text-align: center;
+  display: block;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+.activeStarsReviewsGame {
+  color: yellow;
+}
+.information i {
+  margin: 0 4px;
+}
+.totalReviewText {
+  display: block;
+  text-align: center;
+  margin-right: 38px;
+  font-size: 12px;
+}
+
+@media (max-width: 550px) {
+  .row2 p,
+  .colum1 p {
+    margin: 16px 16px;
+  }
+  .information {
+    justify-content: start;
+  }
+  .totalReviewText {
+    text-align: start;
+    margin-left: 12px;
+  }
+}
