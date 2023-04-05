@@ -15,7 +15,7 @@ function GameCard({ game, category = false }) {
           : styles.containerGamerCardCategory
       } `}
     >
-      {Object.entries(user).length ? <YourFavorities nameGame={game} /> : null}
+      {Object.entries(user || {}).length ? <YourFavorities nameGame={game} /> : null}
       <Link to={`/detail/${game.id}`}>
         <div className={styles.containerImgCard}>
           <img src={game.image} alt="game name" />
